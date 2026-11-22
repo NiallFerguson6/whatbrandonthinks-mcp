@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "net.whatbrandonthinks/chat-report",
+  "title": "What Brandon Thinks",
+  "description": "Guides, pricing and setup links for private AI reports on WhatsApp, iMessage and KakaoTalk chats.",
+  "version": "1.0.0",
+  "websiteUrl": "https://whatbrandonthinks.net",
+  "icons": [
+    {
+      "src": "https://whatbrandonthinks.net/brandon-icon-128.png",
+      "mimeType": "image/png",
+      "sizes": ["128x128"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://whatbrandonthinks.net/api/mcp"
+    }
+  ]
+}
